@@ -1,8 +1,19 @@
+.search-form {
+   display: flex;
+   flex-direction: row;
+   align-self: center;
+}
+
 .search-input {
-   margin: auto;
-   width: 40%;
+   width: 60%;
    height: 50px;
    border-radius: 11px;
    font-size: 20px;
    padding: 0 10px;
+}
+
+.search-button {
+   width: 30%;
+   border-radius: 11px;
+   font-size: 20px;
 }
