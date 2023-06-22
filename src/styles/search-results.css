@@ -1,0 +1,10 @@
+.search-results__title {
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.search-results__image {
+    margin-left: 10%;
+    border-radius: 11px;
+    width: 25%;
+}
