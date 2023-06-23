@@ -1,17 +1,22 @@
 import React from "react";
 import "../styles/search-results.css";
 
-const SearchResults = () => {
-  return(
-    <>
-      <p className="search-results__title">Search Results</p>
-      <img 
-        className="search-results__image"
-        src="https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
-        alt="moon"
-      />
-    </>
-  );
+const SearchResults = ({ results }) => {
+  if (!results.length) {
+    return <p className="results-message">No results</p>
+  } else {
+    return(
+      <div className="search-results">
+        {results.map((result) => (
+          <img 
+            className="search-results__image"
+            src={result}
+            alt="space"
+          />
+        ))}  
+      </div> 
+    );
+  }
 };
 
 export default SearchResults;
