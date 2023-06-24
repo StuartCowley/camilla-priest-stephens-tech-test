@@ -4,9 +4,9 @@
 
 I completed this mock technical test as a project for Command Shift bootcamp. The brief was to create a React app that allows users to enter keywords and returns the relevant images.
 
-Built with: React.
-Testing utilities: Jest and React Testing Library.
-Packages used: Axios.
+Built with: React.<br>
+Testing utilities: Jest and React Testing Library.<br>
+Packages used: Axios.<br>
 
 Actions I would have completed with more time:
 - Added CSS styling to make the layout of the images more uniform.
