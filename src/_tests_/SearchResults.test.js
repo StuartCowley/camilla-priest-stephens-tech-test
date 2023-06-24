@@ -3,25 +3,31 @@ import SearchResults from "../components/SearchResults";
 
 describe("SearchResults", () => {
   const validProps = {
-    setSearchResults: jest.fn()
+    searchResults: ["https://unsplash.com/photos/uIf6H1or1nE", "https://unsplash.com/photos/wCujVcf0JDw"]
   };
 
   it("renders correctly", () => {
     const { asFragment } = render(
       <SearchResults
-        setSearchResults={validProps.setSearchResults} 
+        results={validProps.searchResults} 
       />
     );
     expect(asFragment()).toMatchSnapshot();
   });
 
-  it("renders the correct text", () => {
+  it("renders the correct number of images", () => {
     render(
       <SearchResults
-        setSearchResults={validProps.setSearchResults} 
+        results={validProps.searchResults} 
       />
     );
-    expect(screen.getByText("Search Results")).toBeInTheDocument();
+
+    expect(screen.getAllByTestId("search-results__image")).toHaveLength(2);
   });
+
+
 });
+
+
+
 
