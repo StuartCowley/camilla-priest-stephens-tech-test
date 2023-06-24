@@ -12,6 +12,7 @@ describe("SearchResults", () => {
         results={validProps.searchResults} 
       />
     );
+    
     expect(asFragment()).toMatchSnapshot();
   });
 

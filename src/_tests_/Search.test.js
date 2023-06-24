@@ -15,6 +15,7 @@ describe("Search", () => {
 
     jest.spyOn(axios, "get").mockResolvedValue(mockData);
     const { asFragment } = await render(<Search setSearchResults={validProps.setSearchResults}/>);
+    
     expect(asFragment()).toMatchSnapshot();
   });
 });

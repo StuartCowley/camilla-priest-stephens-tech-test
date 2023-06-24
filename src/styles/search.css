@@ -1,20 +1,20 @@
 .search-form {
-   display: flex;
-   flex-direction: row;
-   align-self: center;
-   margin-bottom: 80px;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  margin-bottom: 80px;
 }
 
 .search-input {
-   width: 60%;
-   height: 50px;
-   border-radius: 11px;
-   font-size: 20px;
-   padding: 0 10px;
+  width: 60%;
+  height: 50px;
+  border-radius: 11px;
+  font-size: 20px;
+  padding: 0 10px;
 }
 
 .search-button {
-   width: 30%;
-   border-radius: 11px;
-   font-size: 20px;
+  width: 30%;
+  border-radius: 11px;
+  font-size: 20px;
 }
