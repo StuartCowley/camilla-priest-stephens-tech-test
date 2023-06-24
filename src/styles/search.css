@@ -3,7 +3,7 @@
   flex-direction: row;
   align-self: center;
   justify-content: space-between;
-  margin-bottom: 80px;
+  margin-bottom: 10vh;
 }
 
 .search-input {
