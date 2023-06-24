@@ -12,8 +12,8 @@ const App = () => {
         className="nasa-logo" 
         src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg" alt="nasaLogo"
       />
-      <Search setSearchResults={setSearchResults}/>
-      <SearchResults results={searchResults}/>
+      <Search setSearchResults={setSearchResults} />
+      <SearchResults results={searchResults} />
     </div>
   );
 }

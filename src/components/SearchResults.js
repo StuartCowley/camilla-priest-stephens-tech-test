@@ -2,7 +2,9 @@ import React from "react";
 import "../styles/search-results.css";
 
 const SearchResults = ({ results }) => {
-  if (!results.length) {
+  if (!results) {
+    return <p></p>
+  } else if (!results.length) {
     return <p className="results-message">No images found</p>
   } else {
     return(
