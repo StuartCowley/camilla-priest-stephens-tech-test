@@ -1,0 +1,27 @@
+.search-form {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: space-between;
+  margin-bottom: 10vh;
+}
+
+.search-input {
+  width: 60%;
+  height: 50px;
+  border-radius: 11px;
+  border: 1px solid #000000;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+.search-button {
+  width: 30%;
+  border-radius: 11px;
+  border: none;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  color: #fff;
+  background-color: #000000;
+}
